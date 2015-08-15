@@ -62,14 +62,6 @@ interface JQueryInputMaskOptions {
     rightAlignNumerics?: boolean;
 }
 
-interface JQueryInputMaskDefinition {
-
-}
-
-interface InputMaskDefinition {
-
-}
-
 interface InputMaskKeyCodes {
 
     ALT: number;
