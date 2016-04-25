@@ -46,7 +46,7 @@ interface JQueryInputMaskOptions {
     nojumps?: boolean; //do not jump over fixed parts in the mask
     nojumpsThreshold?: number; //start nojumps as of
     keepStatic?: boolean; //try to keep the mask static while typing. Decisions to alter the mask will be posponed if possible - undefined see auto selection for multi masks
-    definitions?: JQueryInputMaskDefinition;
+    definitions?: any;
     //specify keyCodes which should not be considered in the keypress event, otherwise the preventDefault will stop their default behavior especially in FF
     ignorables?: number[];
     isComplete?: (buffer: string, opts: JQueryInputMaskOptions) => boolean; //override for isComplete - args => buffer, opts - return true || false
